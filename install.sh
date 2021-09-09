@@ -51,6 +51,7 @@ else
     git lfs pull
 fi
 
+$DIR/gym-collision-avoidance/install.sh false false
 
 # # Install this pkg and its requirements
 python -m pip install -r requirements.txt
